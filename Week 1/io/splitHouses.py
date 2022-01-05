@@ -13,7 +13,7 @@ if t > 1:
         else:
             print('NO')
 else:
-    if c == "H" or c == ".":
+    if c == "H":
         print("YES")
         print(c)
     elif c == ".":
