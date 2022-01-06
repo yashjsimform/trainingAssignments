@@ -32,11 +32,24 @@
     color: white;
     font-style: italic;
 }
+.search_bar{
+    display: flex;
+    position: relative;
+}
 .search_input {
     width: 500px;
     height: 100%;
     background-color: red;
     border-radius: 2px;
+}
+.search_icon{
+    position: absolute;
+    right: 1px;
+    top: 50%;
+    font-size: 1.4rem;
+    color: #2874f0;
+    transform: translate(-1%,-50%);
+    cursor: pointer;
 }
 .search_input input{
     width: 100%;
